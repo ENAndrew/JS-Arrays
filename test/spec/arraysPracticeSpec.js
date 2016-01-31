@@ -143,8 +143,8 @@ describe('arraysPractice', function () {
 		})
 		it('should remove an item from a groceryList array (if it is in the array)', function () {
 			var groceryList = ['chips', 'soda', 'celery', 'pizza'];
-			var item = 'chips'
-			var expected = ['soda', 'celery', 'pizza']
+			var item = 'chips';
+			var expected = ['soda', 'celery', 'pizza'];
 			var itemExists = removeItem(groceryList, item);
 			expect(itemExists).toEqual(expected);
 		})
